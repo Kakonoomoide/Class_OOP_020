@@ -23,9 +23,6 @@ class Matakuliah {
 private:
 	string kode, namamk;
 	int sks;
-
-public:
-
 };
 
 int main() {
