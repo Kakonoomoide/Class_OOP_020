@@ -21,7 +21,7 @@ public:
 
 class Matakuliah {
 private:
-	string kode, namamk;
+	string kodemk, namamk;
 	int sks;
 
 public:
@@ -29,6 +29,14 @@ public:
 	void tampilmk();
 };
 
+void Matakuliah::inputmk() {
+	cout << "masukan kodemk	:";
+	cin >> kodemk;
+	cout << "masukan namamk	:";
+	cin >> namamk;
+	cout << "masukan sksmk	:";
+	cin >> sks;
+}
 
 
 int main() {
