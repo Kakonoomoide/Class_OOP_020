@@ -23,7 +23,13 @@ class Matakuliah {
 private:
 	string kode, namamk;
 	int sks;
+
+public:
+	void inputmk();
+	void tampilmk();
 };
+
+
 
 int main() {
 	mahasiswa mhs;
