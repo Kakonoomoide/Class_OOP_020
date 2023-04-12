@@ -38,6 +38,13 @@ void Matakuliah::inputmk() {
 	cin >> sks;
 }
 
+void Matakuliah::tampilmk() {
+	cout << "\nkode	:" << kodemk << endl;
+	cout << "nama	:" << namamk << endl;
+	cout << "sks	:" << sks << endl;
+
+}
+
 
 int main() {
 	mahasiswa mhs;
