@@ -11,6 +11,12 @@ private:
 		cout << "masukan nama	:";
 		cin >> nama;
 	}
+	void inputdata() {
+		cout << "masukan NIM	:";
+		cin >> nim;
+		cout << "masukan nama	:";
+		cin >> nama;
+	}
 
 };
 
